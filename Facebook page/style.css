@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  /* width: 100; */
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.text-left {
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+  width: 485px;
+  height: 266px;
+
+  margin-right: 5px;
+  position: absolute;
+  left: 176px;
+  /* padding:26px 0 0 26px; */
+}
+.text-title {
+  position: relative;
+}
+
+.fb-img {
+  height: 106px;
+  width: 241px;
+  padding: 26px 0 0 26px;
+  position: absolute;
+  right: 268px;
+}
+
+.text-subtitle {
+  position: absolute;
+  top: 118px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+}
+
+.card-right {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  background-color:white;
+  width: 396px;
+  height: 347px;
+  margin-right: 40px;
+  position: absolute;
+  right: 155px;
+  border-radius:8px;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.email-input::placeholder {
+ 
+    padding: 14px 16px;
+    
+}
+
+.email-input{
+    width:364px;
+    height:50px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size:17px;
+}
+
+.password-input{
+    width:364px;
+    height:50px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size:17px;
+}
+.password-input::placeholder {
+ 
+    padding: 14px 16px;
+    
+    
+}
+
+.login-btn{
+    display:flex;
+    justify-content:center;
+    background-color: #1877f2;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width:364px;
+    color:white;
+    font-weight:bold;
+    border: 1px solid #dddfe2;
+}
+.card-text{
+    font-size:16px;
+    width:137px;
+    height:20px;
+    text-align:center;
+    color: #1877f2;
+    font-weight: 500;
+}
+
+.card-line{
+    width: 364px;
+    border-bottom:1px solid #dadde1;
+
+}
+
+.create-btn{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color:white;
+    font-weight:bold;
+}
+
+.card-end{
+    position: absolute;
+    top: 381px;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+   
+}
+.card-footer{
+    font-weight:bold;
+    color:black;
+}
